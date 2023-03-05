@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-web-hw-07"
+version = "0.1.0"
+description = ""
+authors = ["olgapasichnyuk <olgapasichnyuk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_web_hw_07"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.4"
+alembic = "^1.9.4"
+psycopg2 = "^2.9.5"
+faker = "^17.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
