@@ -23,7 +23,7 @@
 </ul>
 
 <ul><h3>-для таблиці courses:</h3>
-<li>py cli_crud.py -a create -m Course -n "Новий предмет"</li> -id 1
+<li>py cli_crud.py -a create -m Course -n "Новий предмет" -id 1</li>
 <li>py cli_crud.py -a update -m Course -id 1 -n "оновлена назва предмету"</li>
 <li>py cli_crud.py -a list -m Course</li>
 <li>py cli_crud.py -a remove -m Course -id 1</li>
