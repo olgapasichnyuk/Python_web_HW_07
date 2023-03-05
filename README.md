@@ -3,7 +3,7 @@
 # Python_web_HW_07
 
 
-<h2>Приклади виконання команд у терміналі</h2>
+<h2>Приклади виконання команд у терміналі для скрипта cli_crud.py</h2>
 <ul><h3>-для таблиці teachers:</h3>
 <li>py cli_crud.py -a create -m Teacher -n "Маринчак Віктор"</li>
 <li>py cli_crud.py -a update -m Teacher -id 1 -n "Косенко Оксана"</li>
